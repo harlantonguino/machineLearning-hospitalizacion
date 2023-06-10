@@ -19,9 +19,9 @@ Se ha recopilado `Antecedentes del paciente`, `Morbilidad asociada al paciente` 
 
 Se disponibiliza:<br>
 1. Dataset original: BBDD_Hospitalización.csv<br>
-2. Notebook Preprocesamiento de datos: ProyectoIntegrador1M6<br>
-3. Dataset procesado (Usado en el segundo notebook 'ProyectoIntegrador1BM': BBDD_HospitalizaciónB.csv<br>
-4. Notebook Modelo Machine Learning: ProyectoIntegrador1BM6<br>
+2. Notebook Preprocesamiento de datos (normalizacion, limpieza): ProyectoIntegrador1M6<br>
+3. Dataset procesado (usado en el segundo notebook 'ProyectoIntegrador1BM'): BBDD_HospitalizaciónB.csv<br>
+4. Notebook Modelo Machine Learning (modelamiento, evaluacion): ProyectoIntegrador1BM6<br>
 
 <br>
 <br>
