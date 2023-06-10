@@ -37,5 +37,5 @@ Finalmente al validar la exahustividad (Recall: 1)) con el modelo propuesto y ob
 
 ![matrix de confusion](https://github.com/harlantonguino/HospitalizacionML/assets/9009541/75bfdcd5-e68c-47bd-bfb4-384e30856383)
 
-Cabve resaltar que el preprocesamiento de los datos es fundamental para obtener un buen performance en el modelo final
+Cabe resaltar que el preprocesamiento de los datos es fundamental para obtener un buen performance en el modelo final
 
