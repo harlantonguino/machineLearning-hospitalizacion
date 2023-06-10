@@ -17,7 +17,7 @@ Se ha recopilado `Antecedentes del paciente`, `Morbilidad asociada al paciente` 
 ![image](https://user-images.githubusercontent.com/118769777/220240501-8c21461d-2de5-495b-954e-10fb9bf38014.png)
 
 
-Se disponibiliza de<br>
+Se disponibiliza:<br>
 1. Dataset original: BBDD_Hospitalización.csv<br>
 2. Notebook Preprocesamiento de datos: ProyectoIntegrador1M6<br>
 3. Dataset procesado (Usado en el segundo notebook 'ProyectoIntegrador1BM': BBDD_HospitalizaciónB.csv<br>
@@ -30,7 +30,10 @@ estudio realizado<br>
 
 ![atributos](https://github.com/harlantonguino/HospitalizacionML/assets/9009541/cded8738-e04a-42f4-8eb0-797c4413152e)
 
-Finalmente al validar las metricas obtenidas (Accuracy: 0.991 (+/- 0.006)) con el modelo propuesto se decide no evaluar otros modelos alternativos<br>
+Se identifica la exahustividad (recall) como la metrica objetivo con la cual validasremos nuestro modelo debido a que por la naturaleza del problema 
+se busca minimizar los falsos negativos, considerando que seria mas grave predecir un paciente como NO Hospitalizado y que en realidad SI sea Hospitalizado<br>
+
+Finalmente al validar la exahustividad (Recall: 1)) con el modelo propuesto y obtener un valor satisfactorio para dicha metrica se decide no evaluar otros modelos alternativos<br>
 
 ![matrix de confusion](https://github.com/harlantonguino/HospitalizacionML/assets/9009541/75bfdcd5-e68c-47bd-bfb4-384e30856383)
 
